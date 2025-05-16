@@ -1,0 +1,17 @@
+/* temples-large.css - Larger View */
+
+#menu-button {
+    display: none;
+  }
+  
+  nav {
+    display: flex !important;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: flex-end;
+  }
+  
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  
